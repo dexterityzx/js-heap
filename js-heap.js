@@ -104,7 +104,7 @@ const Heap = function (customComparator) {
         array.length = 0;
     };
 
-    return _func
+    return Object.freeze(_func)
 };
 
 const maxHeap = Heap();
